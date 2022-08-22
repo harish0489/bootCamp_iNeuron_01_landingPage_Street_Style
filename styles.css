@@ -1,0 +1,184 @@
+/* Import Font Family */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+/* Cleanup CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    all: unset;
+    font-family: "Orbitron", sans-serif;
+
+
+}
+
+
+/* Styles for Navbar */
+
+nav,
+.content {
+    padding: 5vh 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo {
+    height: 5vh;
+}
+
+
+nav .list-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav .search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.list-item {
+    font-family: "Orbitron", sans-serif;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0 30px;
+    font-weight: 500;
+}
+
+.list-item:first-child {
+    font-weight: 800;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 3px;
+    font-size: 24px;
+}
+
+.btn-search {
+    font-family: "Poppins", sans-serif;
+    background-color: transparent;
+    padding: 3px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #616161;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    margin: 0vh 1vh;
+}
+
+.human,
+.grids {
+    height: 60vh;
+    width: 25vw;
+}
+
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    flex: 1;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.image2 {
+    position: absolute;
+    top: 10vh;
+    left: 10vh;
+}
+
+.trends {
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.globe {
+    height: 8vh;
+    width: 8vh;
+}
+
+.star {
+    height: 5vh;
+    width: 5vh;
+}
+
+.row-two {
+    display: flex;
+    flex-direction: column;
+    padding: 0vh 10vh;
+}
+
+.row-two h1 {
+    margin-top: 5vh;
+    font-size: 48px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.row-two p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 40px 80px 80px 80px;
+    text-align: center;
+}
+
+.email,
+.join {
+    font-family: "Orbitron", sans-serif;
+    padding: 1px 8px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.row-three button{
+    margin : 5px;
+}
+.email{
+    border: 1px solid #000000;
+}
+
+.join{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.row-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0vh 10vh;
+}
+
+.row-four p{
+    padding: 10vh 0vh 2vh 0vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.row-four .icons img{
+    padding : 0vh 0.5vh;
+    height : 4vh;
+    width : 4vh;
+}
